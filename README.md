@@ -4,7 +4,9 @@ wp-bootstrap-navwalker-Mega
 **A custom WordPress nav walker class to fully implement the Bootstrap 3.0+ navigation style with Mega Menu items in a custom theme using the WordPress built in menu manager.**
 
 http://prntscr.com/h7206f <- screenshot of menu
+
 http://prntscr.com/h720sy < - screenshot of widgets screen
+
 http://prntscr.com/h721hh <- screenshot of menu screen
 
 
