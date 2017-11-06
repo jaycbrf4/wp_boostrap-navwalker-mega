@@ -118,7 +118,7 @@ To display the menu you must associate your menu with your theme location. You c
 
 Displaying the Mega Menu
 -------------------
-To display the mega menu items add the class "mega-menu-parent" to the menu item in the WordPress menu manager. This will create a new widget in the widgets section with the same name as the nave parent. Add a Custom HTML widget and code your mega menu items using default bootstrap containers, rows and cols.
+To display the mega menu items add the class "mega-menu-parent" to the menu item in the WordPress menu manager. This will create a new widget in the widgets section with the same name as the nav parent. Add a Custom HTML widget and code your mega menu items using default bootstrap containers, rows and cols. Add a search widget or any other widget, style the CSS by the item's ID.
 
 Additional CSS to get the menu to display correctly:
 
