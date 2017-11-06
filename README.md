@@ -68,7 +68,7 @@ Now you will need to add the Widget that will contain the mega-menu item's HTML.
               'id'   => 'mega-menu-item-' . $item->ID,
               'description' => 'Mega Menu items',
               'name' => $item->title . ' - Mega Menu',
-              'before_widget' => '<li class="mega-menu-item">',
+              'before_widget' => '<li id="%1$s" class="mega-menu-item">',
               'after_widget' => '</li>', 
 
             ));
