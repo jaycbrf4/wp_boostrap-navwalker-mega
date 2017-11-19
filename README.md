@@ -34,9 +34,8 @@ Update your `wp_nav_menu()` function in `header.php` to use the new walker by ad
 ```php
  <?php
           $args = array(
-		  'theme_location' => 'mega-menu',
+		  'theme_location' => 'mega_menu',
 		  'depth' => 0,
-		  'container' => '',
 		  'menu_class'  => 'nav navbar-nav',
 		  'walker'  => new BootstrapNavMenuWalker()
           );
@@ -50,12 +49,12 @@ You will also want to declare your new menu in your `functions.php` file.
 
 
 	register_nav_menus( array(
-	'mega_menu'   => __( 'Mega Menu', 'JD_BOOTSTRAP' ),
+	'mega_menu'   => __( 'Mega Menu', 'your-theme' ),
 	) );
 
 Now you will need to add the Widget that will contain the mega-menu item's HTML. In your functions file add this code to the register sidebars function:
 
-	//register MegaMenu widget if the Mega Menu is set as the menu location
+    //register MegaMenu widget if the Mega Menu is set as the menu location
     $location = 'mega_menu';
     $css_class = 'mega-menu-parent';
     $locations = get_nav_menu_locations();
@@ -97,9 +96,8 @@ Typically the menu is wrapped with additional markup, here is an example of a ` 
 		    <!-- Collect the nav links from WordPress -->
 	  <div class="collapse navbar-collapse" id="bootstrap-nav-collapse">         
 	  <?php $args = array(
-		  'theme_location' => 'mega-menu',
+		  'theme_location' => 'mega_menu',
 		  'depth' => 0,
-		  'container' => '',
 		  'menu_class'  => 'nav navbar-nav',
 		  'walker'  => new BootstrapNavMenuWalker()
 		  );
