@@ -159,6 +159,5 @@ And optional css for a hover/fade inUp effect
 	  } 
 
 
-
-Original work by johnmegahan https://gist.github.com/1597994, Emanuele 'Tex' Tessore https://gist.github.com/3765640
+Based on WPBootstrapNavwalker by by johnmegahan https://gist.github.com/1597994, Emanuele 'Tex' Tessore https://gist.github.com/3765640
 
